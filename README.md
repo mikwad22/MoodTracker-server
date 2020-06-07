@@ -13,4 +13,5 @@ GET- log by user id
 <img width="1139" alt="GET- log by user id" src="https://user-images.githubusercontent.com/63356287/83977353-faefc100-a8cd-11ea-9274-15ee7924f923.png">
 PUT- update log by user id
 <img width="1141" alt="PUT - update log" src="https://user-images.githubusercontent.com/63356287/83977376-1e1a7080-a8ce-11ea-8928-1d09db208558.png">
-
+PUT- update log by user id in pgAdmin
+<img width="1283" alt="PUT - update pgAdmin" src="https://user-images.githubusercontent.com/63356287/83977398-4b671e80-a8ce-11ea-8e2a-31813ce84d1f.png">
