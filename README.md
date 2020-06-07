@@ -7,3 +7,5 @@ POST- user/login
 <img width="1132" alt="POST- user:login" src="https://user-images.githubusercontent.com/63356287/83977285-6c7b3f80-a8cd-11ea-8c14-dc8dfdfff87d.png">
 POST- (create) moods/log
 <img width="1137" alt="POST - create moods:log" src="https://user-images.githubusercontent.com/63356287/83977294-92084900-a8cd-11ea-9409-166994771cc3.png">
+POST- (create) moods/log in pgAdmin
+<img width="1262" alt="POST- create moods:log pgAdmin" src="https://user-images.githubusercontent.com/63356287/83977321-c1b75100-a8cd-11ea-9d34-c22e53854ee9.png">
