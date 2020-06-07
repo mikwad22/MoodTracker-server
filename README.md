@@ -9,3 +9,5 @@ POST- (create) moods/log
 <img width="1137" alt="POST - create moods:log" src="https://user-images.githubusercontent.com/63356287/83977294-92084900-a8cd-11ea-9409-166994771cc3.png">
 POST- (create) moods/log in pgAdmin
 <img width="1262" alt="POST- create moods:log pgAdmin" src="https://user-images.githubusercontent.com/63356287/83977321-c1b75100-a8cd-11ea-9d34-c22e53854ee9.png">
+GET- log by user id
+<img width="1139" alt="GET- log by user id" src="https://user-images.githubusercontent.com/63356287/83977353-faefc100-a8cd-11ea-9274-15ee7924f923.png">
