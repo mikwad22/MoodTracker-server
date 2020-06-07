@@ -17,3 +17,5 @@ PUT- update log by user id in pgAdmin
 <img width="1283" alt="PUT - update pgAdmin" src="https://user-images.githubusercontent.com/63356287/83977398-4b671e80-a8ce-11ea-8e2a-31813ce84d1f.png">
 DELETE- log by user id
 <img width="1140" alt="DELETE - log by id" src="https://user-images.githubusercontent.com/63356287/83977417-6c2f7400-a8ce-11ea-8f34-8ecfae700d66.png">
+DELETE- log by id in pgAdmin
+<img width="1264" alt="DELETE- log by id pgAdmin" src="https://user-images.githubusercontent.com/63356287/83977448-92edaa80-a8ce-11ea-85b6-a8203d6c6c6f.png">
