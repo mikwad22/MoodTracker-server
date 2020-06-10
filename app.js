@@ -12,11 +12,11 @@ const user = require('./controllers/usercontroller');
 //database
 const sequelize = require('./db');
 sequelize.sync();
+app.use(express.json());
 
 //middleware
 app.use(require('./middleware/headers'));
 app.use(cors());
-app.use(express.json());
 
 //listen
 app.listen(process.env.PORT, () => console.log(`app is listening on ${process.env.PORT}`));

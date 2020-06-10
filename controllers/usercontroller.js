@@ -51,7 +51,7 @@ router.post('/user/login', (req, res) => {
                     }
                 }) 
             } else {
-                res.status(500).send({error: 'failed to authenticate'}) // user not found
+                res.status(500).send({error: 'failed to authenticate user'}) // user not found
             }
         }, err => res.status(501).send({error: 'failed to process'})) // issue somewhere else
 })

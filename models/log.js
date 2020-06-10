@@ -1,7 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
     const Log = sequelize.define('log', {
         date: {
-            type: DataTypes.DATE,
+            type: DataTypes.STRING,
             allowNull: false
         },
         timeOfDay: {
