@@ -3,9 +3,9 @@ const Log = require('../db').import('../models/log');
 
 // GET
 router.get('/', (req, res) => {
-    Log.findAll()
-    .then(logs => res.status(200).json({
-        logs: logs
+    Log.findAll() 
+    .then(log => res.status(200).json({
+        log: log
     }))
     .catch(err => res.status(500).json({
         error: err
