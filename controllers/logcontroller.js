@@ -3,7 +3,11 @@ const Log = require('../db').import('../models/log');
 
 // GET
 router.get('/', (req, res) => {
-    Log.findAll() 
+    Log.findAll({
+        where: {
+            owner_id: req.user.id
+        }
+    }) 
     .then(log => res.status(200).json({
         log: log
     }))
@@ -18,7 +22,8 @@ router.post('/log', (req, res) => {
         date: req.body.log.date,
         timeOfDay: req.body.log.timeOfDay,
         mood: req.body.log.mood,
-        comment: req.body.log.comment
+        comment: req.body.log.comment,
+        owner_id: req.user.id
     }
     Log.create(logFromRequest)
     .then(log => res.status(200).json({

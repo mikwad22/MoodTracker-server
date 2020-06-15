@@ -15,6 +15,10 @@ module.exports = (sequelize, DataTypes) => {
         comment: {
             type: DataTypes.TEXT,
             allowNull: true
+        },
+        owner_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     })
     return Log;
