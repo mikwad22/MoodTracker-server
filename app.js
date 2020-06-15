@@ -11,7 +11,7 @@ const user = require('./controllers/usercontroller');
 
 //database
 const sequelize = require('./db');
-sequelize.sync({force: true});
+sequelize.sync();
 app.use(express.json());
 
 //middleware
